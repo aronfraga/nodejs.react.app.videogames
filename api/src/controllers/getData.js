@@ -7,7 +7,11 @@ const apiLimitRequest = 6;
 const getApiData = async () => {
   const requestMemory = [];
   for(var i = 1; i < apiLimitRequest; i++) {
-    const apiCache = await axios.get(`https://api.rawg.io/api/games?key=${API_KEY}&page=${i}`);
+    const apiCache = await axios.get({
+      method: 'get',
+      url: `https://api.rawg.io/api/games?key=${API_KEY}&page=${i}`,
+      headers: { 'Accept-Encoding': 'null' }
+    });
     apiCache.data.results.map((data) => {
       requestMemory.push({
         id: data.id,

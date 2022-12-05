@@ -5,7 +5,11 @@ const { getDbData } = require('../controllers/getData');
 
 const getApiSearch = async (name) => {
   const requestMemory = [];
-    const apiCache = await axios.get(`https://api.rawg.io/api/games?search=${name}&key=${API_KEY}`);
+    const apiCache = await axios.get({
+      method: 'get',
+      url: `https://api.rawg.io/api/games?search=${name}&key=${API_KEY}`,
+      Headers: { 'Accept-Encoding': 'null' }
+    });
     apiCache.data.results.map((data) => {
       requestMemory.push({
         id: data.id,
