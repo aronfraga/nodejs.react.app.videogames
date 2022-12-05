@@ -4,7 +4,7 @@ const { API_KEY } = process.env;
 const { Videogame, Genre } = require('../db');
 
 const getAllApiData = async (id) => {
-  const apiCache = await axios.get({
+  const apiCache = await axios({
     method: 'get',
     url: `https://api.rawg.io/api/games/${id}?key=${API_KEY}`,
     headers: { 'Accept-Encoding': 'null' }

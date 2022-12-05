@@ -5,7 +5,7 @@ const { getDbData } = require('../controllers/getData');
 
 const getApiSearch = async (name) => {
   const requestMemory = [];
-    const apiCache = await axios.get({
+    const apiCache = await axios({
       method: 'get',
       url: `https://api.rawg.io/api/games?search=${name}&key=${API_KEY}`,
       Headers: { 'Accept-Encoding': 'null' }
