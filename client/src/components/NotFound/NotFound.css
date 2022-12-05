@@ -1,0 +1,48 @@
+.mainNotFound {
+  background-image: linear-gradient(0, #312d45 0, #151533 50%, #000022 100%);
+  width: 45em;
+  height: 25em;
+  border-radius: 0.6em;
+  margin: 1em;
+  -webkit-box-shadow: 
+  5px 5px 15px 5px #FF8080,
+  -9px 5px 15px 5px #FFE488, 
+  -7px -5px 15px 5px #8CFF85, 
+  12px -5px 15px 5px #80C7FF, 
+  12px 10px 15px 7px #E488FF, 
+  -10px 10px 15px 7px #FF616B, 
+  -10px -7px 27px 1px #8E5CFF, 
+  50px 31px 50px 37px rgba(0,0,0,0); 
+  box-shadow: 
+  5px 5px 15px 5px #FF8080, 
+  -9px 5px 15px 5px #FFE488, 
+  -7px -5px 15px 5px #8CFF85, 
+  12px -5px 15px 5px #80C7FF, 
+  12px 10px 15px 7px #E488FF, 
+  -10px 10px 15px 7px #FF616B, 
+  -10px -7px 27px 1px #8E5CFF, 
+  50px 31px 50px 37px rgba(0,0,0,0);
+}
+
+.titleNotFound {
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.backgroundNotFound {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.iconLoader {
+  margin-top: 2.5em;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

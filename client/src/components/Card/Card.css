@@ -1,0 +1,194 @@
+.mainNavBarBack {
+  position: fixed;
+  background-color: #151533;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  z-index: 1;
+}
+
+.spaceCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.mainCardDetail {
+  background-image: linear-gradient(0, #312d45 0, #151533 50%, #000022 100%);
+  width: 80em;
+  margin-top: 4em;
+  height: auto;
+  border-radius: 0.6em;
+  box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -moz-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  transition: all ease 200ms;
+}
+
+.mainCardDetailDeleted {
+  background-image: radial-gradient(circle at 50% 120.71%, 
+  #ff964b 0, #ff8750 12.5%, #ff7754 25%, #ee6656 37.5%, 
+  #d85555 50%, #c14653 62.5%, #ac3951 75%, #9a304f 87.5%, #89284e 100%);
+  width: 83em;
+  margin-top: 4em;
+  height: auto;
+  border-radius: 0.6em;
+  box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -moz-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  transition: all ease 200ms;
+}
+
+.containerData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subontainerData {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+
+.subTitleData {
+  margin-left: 3em;
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.containerDataBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subData {
+  margin-left: 10px;
+  margin-right: 3em;
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: azure;
+}
+
+.putDelete {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.titleCardDetail {
+  font-size: 4em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.subTitleCardDetail {
+  font-size: 3em;
+  text-align: center;
+  margin: 0px;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.detail {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1.1em;
+  font-family: 'Courier New', Courier, monospace;
+  color: azure;
+}
+
+.otherText {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: azure;
+}
+
+.imageContainerDetail {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imageContainerDetail img{
+  max-width: 1600px;
+}
+
+.btnUpdate {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all ease 200ms;
+}
+
+.btnDelete {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: red;
+  margin-bottom: 20px;
+  transition: all ease 200ms;
+}
+
+.btnUpdateDisabled {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #424241;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all ease 200ms;
+}
+
+.btnDeleteDisabled {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #424241;
+  margin-bottom: 20px;
+  transition: all ease 200ms;
+}
+
+.btnDelete:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.btnUpdate:hover {
+  transform: scale(1.10);
+  cursor: pointer;
+}
+
+.btnDelete:active {
+  transform: scale(0.9);
+}
+
+.btnUpdate:active {
+  transform: scale(0.9);
+}

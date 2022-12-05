@@ -1,0 +1,37 @@
+.mainLanding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 20%;
+}
+
+.landingTItle {
+  margin-top: 1em;
+  font-size: 5em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.btnLangind {
+  margin-top: 2em;
+  width: 12em;
+  transition: all ease 300ms;
+}
+
+.btnLangind:hover {
+  transform: scale(1.15);
+}
+
+.btnLangind:active {
+  transform: scale(0.9);
+}
+
+@font-face {
+  font-family: 'Common Pixel';
+  src: url('../../img/commonpixel.TTF');
+}

@@ -1,0 +1,58 @@
+.navBar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+.btnButton {
+  margin-bottom: 1em;
+  margin-left: 3px;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnButtonSelector {
+  margin-bottom: 1em;
+  margin-left: 3px;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 2px;
+  background-color: #db8f02;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnButton:hover {
+  transform: scale(1.10);
+  background-color: red;
+}
+
+.btnButton:active {
+  transform: scale(0.9);
+  background-color: #EFB810;
+}

@@ -1,0 +1,181 @@
+.createNewNavBarBack {
+  position: fixed;
+  background-color: #151533;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  z-index:1;
+}
+
+.spaceCreateNew {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.formContainer {
+  align-self: center;
+  margin-top: 4em;
+  width: 60em;
+  height: 49em;
+  background-image: linear-gradient(0, #312d45 0, #151533 50%, #000022 100%);
+  border-radius: 0.6em;
+  box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -moz-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  transition: all ease 1500ms;
+}
+
+.formContainerValidate {
+  align-self: center;
+  margin-top: 4em;
+  width: 63em;
+  height: 49em;
+  background-image: linear-gradient(0, #a1e83f 0, #85e23d 16.67%, #61d93a 33.33%, #27cd36 50%, #00c134 66.67%, #00b737 83.33%, #00af3e 100%);
+  border-radius: 0.6em;
+  box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -moz-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  transition: all ease 1500ms;
+}
+
+.formTitle {
+  font-size: 3em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.titleResponse {
+  margin-top: 1.5em;
+  font-size: 1.1em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: rgb(37, 34, 34);
+}
+
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-input-placeholder {
+color: azure;
+}
+
+.inputBox {
+  margin-bottom: 3em;
+  height: 1.3em;
+  width: 22.5em;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.inputBoxError {
+  margin-bottom: 3em;
+  height: 1.3em;
+  width: 22.5em;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: red;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.textBox {
+  height: 5em;
+  width: 22.5em;
+  resize: none;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.textBoxError {
+  height: 5em;
+  width: 22.5em;
+  resize: none;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: red;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnForm {
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-top: 2em;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  transition: all ease 300ms;
+}
+
+.btnFormDisabled {
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-top: 2em;
+  margin-right: 2px;
+  background-color: #424241;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  transition: all ease 300ms;
+}
+
+.btnForm:hover {
+  transform: scale(1.10);
+  background-color: red;
+}
+
+.btnForm:active {
+  transform: scale(0.9);
+  background-color: #EFB810;
+}

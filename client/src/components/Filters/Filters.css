@@ -1,0 +1,98 @@
+.mainContainerFilterOrder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: -0.4em;
+  margin-right: -.5em;
+}
+
+.containerTitleBar {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.pComponentTextLeft {
+  margin: 0;
+  margin-bottom: -1em;
+  margin-left: 8.1em;
+  font-size: 1em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.pComponentTextRight {
+  margin: 0;
+  margin-bottom: -1em;
+  margin-right: 5.7em;
+  font-size: 1em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.containerBar {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.pComponentLineLeft {
+  margin: 0;
+  margin-bottom: 0.2em;
+  margin-left: 8em;
+  margin-right: 0.2em;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: red;
+}
+
+.pComponentLineRigth{
+  margin: 0;
+  margin-bottom: 0.2em;
+  margin-left: 1.2em;
+  margin-right: 0.6em;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: red;
+}
+
+.compFilter {
+  margin-left: 3px;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnFilter {
+  margin-left: 3px;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnFilter:hover {
+  transform: scale(1.10);
+  background-color: red;
+}
+
+.btnFilter:active {
+  transform: scale(0.9);
+  background-color: #EFB810;
+}

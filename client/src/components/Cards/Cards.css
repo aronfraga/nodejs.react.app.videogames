@@ -1,0 +1,73 @@
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(0, #312d45 0, #151533 50%, #000022 100%);
+  width: 26em;
+  height: auto;
+  border-radius: 0.6em;
+  margin: 1em;
+  overflow: hidden;
+  box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -webkit-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  -moz-box-shadow: -1px 3px 16px 9px rgba(0,0,0,0.43);
+  transition: all ease 300ms;
+}
+
+.mainCard:hover {
+  transform: scale(1.03);
+  background-image: linear-gradient(185deg, #534e5e 0, #312c45 50%, #0e0c2e 100%);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.imageContainer {
+  display: flex;
+  height: 250px;
+}
+
+.imageContainer img{
+  width: 100%;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  width: auto;
+  margin: 0px;
+  height: 5em;
+}
+
+.genreContainer {
+  width: auto;
+  height: auto;
+  height: 5em;
+}
+
+.titleCard {
+  font-size: 1.5em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+}
+
+.titleGenre {
+  font-size: 1.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: azure;
+}
+
+.borderGenre {
+  width: 24em;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.6em;
+  height: 6em;
+}

@@ -1,0 +1,57 @@
+.mainSelect {
+  height: 1.3em;
+  width: 20em;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  margin-bottom: 2em;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.mainSelectError {
+  height: 1.3em;
+  width: 20em;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  margin-bottom: 2em;
+  background-color: red;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnSelect {
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+}
+
+.btnSelect:hover {
+  transform: scale(1.10);
+  background-color: red;
+}
+
+.btnSelect:active {
+  transform: scale(0.9);
+  background-color: #EFB810;
+}

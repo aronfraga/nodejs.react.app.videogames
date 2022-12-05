@@ -1,0 +1,98 @@
+.mainContainerRoute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerRouter {
+  width: 45em;
+  height: 30em;
+  border-radius: 0.6em;
+  background-image: linear-gradient(0, #312d45 0, #151533 50%, #000022 100%);
+  -webkit-box-shadow: 
+  5px 5px 15px 5px #FF8080,
+  -9px 5px 15px 5px #FFE488, 
+  -7px -5px 15px 5px #8CFF85, 
+  12px -5px 15px 5px #80C7FF, 
+  12px 10px 15px 7px #E488FF, 
+  -10px 10px 15px 7px #FF616B, 
+  -10px -7px 27px 1px #8E5CFF, 
+  50px 31px 50px 37px rgba(0,0,0,0); 
+  box-shadow: 
+  5px 5px 15px 5px #FF8080, 
+  -9px 5px 15px 5px #FFE488, 
+  -7px -5px 15px 5px #8CFF85, 
+  12px -5px 15px 5px #80C7FF, 
+  12px 10px 15px 7px #E488FF, 
+  -10px 10px 15px 7px #FF616B, 
+  -10px -7px 27px 1px #8E5CFF, 
+  50px 31px 50px 37px rgba(0,0,0,0);
+}
+
+.supContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}    
+
+.contImg img {
+  margin-top: 3em;
+  height: 20em;
+}
+
+.contText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 3em;
+}
+
+.textNoPage {
+  font-size: 2.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: #EFB810;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+}
+
+.textNoPageRed {
+  font-size: 2.2em;
+  font-family: 'Common Pixel', sans-serif;
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1);
+  color: rgb(189, 0, 0);
+  text-shadow: 1px -1px 13px rgba(150, 150, 150, 1); 
+}
+
+.btnContainerNoPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNoPage {
+  text-decoration: none;
+  transition: all ease 300ms;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-top: 2em;
+  margin-right: 2px;
+  background-color: #EFB810;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.59);
+  transition: all ease 300ms;
+}
+
+.btnNoPage:hover {
+  transform: scale(1.10);
+  background-color: red;
+}
+
+.btnNoPage:active {
+  transform: scale(0.9);
+  background-color: #EFB810;
+}
